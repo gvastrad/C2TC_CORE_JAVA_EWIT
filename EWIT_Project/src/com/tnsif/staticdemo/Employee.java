@@ -23,6 +23,9 @@ public class Employee {
 		public void setId(int id) {
 			this.id = id;
 		}
+		public Employee() {
+			
+		}
 		
 		// Declare a two-parameter constructor with parameters named n and i.
 				Employee(String name, int id) {
