@@ -21,6 +21,7 @@ public class ChildThread extends Thread{
                 Thread.currentThread().interrupt(); // Restore interrupted status
 
 			}
+			//Logic performed by the threads
 			System.out.println(msg + i + " " + Thread.currentThread().getName());
 
 	}
