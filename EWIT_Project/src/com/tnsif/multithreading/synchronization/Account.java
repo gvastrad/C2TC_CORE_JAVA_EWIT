@@ -25,7 +25,7 @@ public class Account implements Bank{
 		return balance;
 	}
 
-	public void setBalance(double balance) {
+	public void setBalance(int balance) {
 		this.balance = balance;
 	}
 
@@ -56,6 +56,8 @@ public class Account implements Bank{
 		}
 		else {
 			balance=balance-amt;
+			System.out.println("after withdrwing Rs." + amt + " current Balance : Rs." + balance);
+
 		}
 		
 	}
