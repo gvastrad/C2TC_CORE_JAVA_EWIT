@@ -10,10 +10,11 @@ import java.util.Vector;
 public class LinkedListDemo {
 
 	public static void main(String[] args) {
-	LinkedList l=new LinkedList();
+	LinkedList l=new LinkedList();	
 	l.add(10);
 	l.add(20);
 	l.add(30);
+	l.add(null);
 	l.add("Hi");
 	
 	System.out.println(l);
@@ -25,6 +26,8 @@ public class LinkedListDemo {
 	}
 	l.addLast(22.2f);
 	System.out.println(l);
+	l.add(2, 50);
+	System.out.println(l);
 }
-	Vector
+	
 }
