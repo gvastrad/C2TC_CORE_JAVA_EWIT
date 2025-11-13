@@ -12,7 +12,7 @@ public class GenericClassTest {
 		obj1.setData(13);
 		System.out.println(obj1.getData());
 		GenericClass<Person> obj2=new GenericClass<Person>();
-		obj2.setData(new Person());
+		//obj2.setData(new Person());
 		System.out.println(obj2.getData());
 
 	}
